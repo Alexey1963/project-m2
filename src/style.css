@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+}
+
+.container {
+    width: 336px;
+    background-color: white;
+    /* margin: 232px 0 0 408px; */
+    margin: 232px auto;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edge {
+    width: 100%;
+    height: 28px;
+    background: #FFDC40;
+    border-radius: 10px 10px 0 0;
+}
+
+.header {
+    line-height: 34px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 17px;
+}
+
+.sortBtn {
+    width: 25px;
+    height: 15px;
+    margin: 12px 29px 12px 280px;
+    background-image: url("../img/btnDown-leave.svg");
+    border: none;
+    filter: contrast(120%);
+}
+
+.sortBtn.reverse {
+    width: 25px;
+    height: 15px;
+    margin: 12px 29px 12px 280px;
+    background-image: url("../img/btnUp-leave.svg");
+    border: none;
+    filter: contrast(120%);
+}
+
+.sortBtn.over {
+    width: 25px;
+    height: 15px;
+    margin: 12px 29px 12px 280px;
+    background-image: url("../img/btnDown-over.svg");
+    border: none;
+    filter: contrast(120%);
+}
+
+.sortBtn.over.reverse {
+    width: 25px;
+    height: 15px;
+    margin: 12px 29px 12px 280px;
+    background-image: url("../img/btnUp-over.svg");
+    border: none;
+    filter: contrast(120%);
+}
+
+/* .sortBtn:hover {
+    background-image: url("../img/btnDown-over.svg");
+} */
+
+.formWindow {
+    width: 286px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 0 21px 0 27px;
+}
+.line {
+    width: 229px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 30px 10px 27px;
+}
+
+input {
+    width: 180px;
+}
+
+.deleteBtn {
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/delete-leave.svg");
+    border: none;
+    filter: contrast(120%);
+}
+
+.deleteBtn:hover {
+    background-image: url("../img/delete-over.svg");
+}
+
+.button {
+    width: 150px;
+    height: 42px;
+    border-radius: 21px;
+    background-color: rebeccapurple;
+    border: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 18px 0 19px 0;
+}
+
+.button:hover {
+    filter: saturate(50%);
+}
+
+.circle {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #833AE0;
+    text-align: center;
+    line-height: 42px;
+}
+
+.btnText {
+    padding: 0 0 0 10px
+}
+
+.passive {
+    display: none;
+}
+.active {
+    display: flex;
+}
